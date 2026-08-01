@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TS3USB221ERSER
+D Texas Instruments TS3USB221ERSER, Analogue Switch Single:1 x 2 480MBps, 2.3  3.6 V, 10-Pin UQFN
+K
+F http://www.ti.com/lit/gpn/ts3usb221e
+$ENDCMP
+#
+#End Doc Library
