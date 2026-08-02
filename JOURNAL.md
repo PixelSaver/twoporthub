@@ -82,3 +82,27 @@ Looking it over again, I think the OutputEnable pin needs to be connected to gro
 Also, I'm reading about ESD protection? Wonder if I need that. I'm going to post in hardware and ask about my current schematic before going any further though!
 ![[Pasted image 20260731183033.png]]
 2026-07-31 06:28:20
+
+## 2026-08-01 11:18:25
+
+Did a little reading on pull down resistors, and I think the S pin for the multiplexer needs one because it's floating when the switch is flipped away from it
+
+Just realized I forgot to add diodes to force the DBUS voltage in, and not through to the other host... oops! 
+
+Doing research on the diode problem, I'm seeing the SS14, PMEG2010, and schottky diodes (but these lose current). That or I use mosfets...
+
+Urk. Maybe I should use a DPDT to switch VBUS too... Wait why didn't I do that from the start?
+![[Pasted image 20260802001334.png]]
+
+Made the VBUS pull up centralized above the switch, and connects to vbus and stuff
+
+I do still need the ESD protection though, trying to find a good one online that I can get symbols and footprints for it...
+
+[TPD4E001](https://www.ti.com/product/TPD4E001#pps) [Datasheet](https://www.ti.com/lit/ds/symlink/tpd4e001.pdf?ts=1785634577902)
+SOT-23 package because it's easier to solder
+
+Turns out I've been editing the wrong project file... my fault though, I'll get that sorted. No wonder my imports havent been showing up!
+
+I believe that's doing it right??
+![[Pasted image 20260802005855.png]]
+That's all for today though! FIguring out the esd stuff took a lot out of me...
