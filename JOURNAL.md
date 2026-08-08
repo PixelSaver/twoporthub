@@ -106,3 +106,19 @@ Turns out I've been editing the wrong project file... my fault though, I'll get 
 I believe that's doing it right??
 ![[Pasted image 20260802005855.png]]
 That's all for today though! FIguring out the esd stuff took a lot out of me...
+
+2026-08-02 01:00:28
+
+## 2026-08-08 12:14:09
+
+Realized the Multiplexer doesn't have the bypass capacitor, so I put one in. Not to sure if 1 uF is enough but... we'll see I guess?. 
+![[Pasted image 20260808122442.png]]
+
+Also realized I should look into fixing switch debouncing, or whether or not that's actually needed. 
+
+Just doing some research online for now
+
+STOPPED 2026-08-08 12:36:23
+
+
+## Next One
