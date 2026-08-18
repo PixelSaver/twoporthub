@@ -121,4 +121,17 @@ Just doing some research online for now
 STOPPED 2026-08-08 12:36:23
 
 
-## Next One
+## 2026-08-18 03:41:44
+
+More esd protection!! Just wired the other usb in
+![[Pasted image 20260818155118.png]]
+
+I have the MUX powered by the 3.3V coming out of the SL2.1A, but I'm not sure if I can use the internal 5v -> 3.3v regulator. So, I'm using the [TLV77308PDBVR](https://www.ti.com/product/TLV773/part-details/TLV77308PDBVR) [Datasheet](https://www.ti.com/lit/ds/symlink/tlv773.pdf?ts=1787094752099&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV773%252Fpart-details%252FTLV77308PDBVR)
+
+Added the 3.3v regulator 
+![[Pasted image 20260818162303.png]]
+And I removed the 3.3v from the sl2.1a
+![[Pasted image 20260818162325.png]]
+
+
+## Next one
