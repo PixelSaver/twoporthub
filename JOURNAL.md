@@ -133,5 +133,25 @@ Added the 3.3v regulator
 And I removed the 3.3v from the sl2.1a
 ![[Pasted image 20260818162325.png]]
 
+Picked a DPDT On-On switch from JS202011CQN for now, since its alr in the kicad one
+
+Set all footprints with 0603 parts for c and r, and now I'm working on this abomination
+![[Pasted image 20260818170334.png]]
+I really need to change the schematic.
+Changed wiring to try and make this easier![[Pasted image 20260818170638.png]]
+So now it's better? still not great though
+![[Pasted image 20260818170832.png]]
+I'm not sure routing this is possible??
+![[Pasted image 20260818171814.png]]
+I give up, I genuinely think this isn't possible to wire with two layers... 
+
+While placing stuff, I realized there's two bypass capacitors haha
+![[Pasted image 20260818174155.png]]
+
+Genuinely think this is impossible
+![[Pasted image 20260818183152.png]]
+I might give up on this project for a while...
+2026-08-18 06:28:31
+
 
 ## Next one
